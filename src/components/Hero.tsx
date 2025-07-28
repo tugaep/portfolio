@@ -36,7 +36,7 @@ export function Hero() {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 md:pt-0">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary-50 via-background to-primary-100/20 dark:from-primary-900/20 dark:via-background dark:to-primary-800/10"></div>
       
@@ -56,7 +56,7 @@ export function Hero() {
 
           {/* Name with Typewriter Effect */}
           <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 text-primary">
+            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-primary">
               <span className="typewriter inline-block">
                 {t('hero.name')}
               </span>

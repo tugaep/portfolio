@@ -123,7 +123,7 @@ const translations = {
     'contact.github': 'github',
     'contact.connect': 'bağlantı kur',
     'contact.cta.title': 'konuşalım!',
-    'contact.cta.description': 'yeni projeler, yaratıcı fikirler veya vizyonunuzun bir parçası olma fırsatları hakkında konuşmaktan her zaman heyecan duyarım.',
+    'contact.cta.description': 'yeni projeler, yaratıcı fikirler hakkında ya da canınız sıkılırsa bana ulaşabilirsiniz.',
     'contact.cta.button': 'bana bir e-posta gönder',
     
     // Writings
@@ -256,7 +256,7 @@ const translations = {
     'contact.github': 'github',
     'contact.connect': 'connect',
     'contact.cta.title': 'let\'s start a conversation',
-    'contact.cta.description': 'i\'m always excited to talk about new projects, creative ideas, or opportunities for your vision to be part of.',
+    'contact.cta.description': 'i\'m always excited to talk about new projects, creative ideas, or if you just want to chat.',
     'contact.cta.button': 'send me an email',
     
     // Footer

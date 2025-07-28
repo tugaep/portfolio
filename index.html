@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuğrap Efe Dikpınar - Creative Developer & Digital Thinker</title>
+    <meta name="description" content="site go brrrrr" />
+    <meta name="author" content="tuğrap efe dikpınar" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tugrap.dev" />
+    <meta property="og:title" content="Tuğrap Efe Dikpınar - Creative Developer & Digital Thinker" />
+    <meta property="og:description" content="Creative Developer & Digital Thinker specializing in modern web applications with beautiful design and seamless user experiences." />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://tugrap.dev" />
+    <meta property="twitter:title" content="Tuğrap Efe Dikpınar - Creative Developer & Digital Thinker" />
+    <meta property="twitter:description" content="Creative Developer & Digital Thinker specializing in modern web applications with beautiful design and seamless user experiences." />
+    <meta property="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- GitHub Pages SPA routing -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 
 declare global {
   interface Window {
@@ -14,8 +13,6 @@ interface AnalyticsConfig {
 }
 
 export const useAnalytics = ({ trackingId, enabled = true }: AnalyticsConfig) => {
-  const location = useLocation();
-
   useEffect(() => {
     if (!enabled || !trackingId) return;
 
@@ -44,15 +41,6 @@ export const useAnalytics = ({ trackingId, enabled = true }: AnalyticsConfig) =>
     };
   }, [trackingId, enabled]);
 
-  // Track page views on route changes
-  useEffect(() => {
-    if (!enabled || !trackingId || !window.gtag) return;
-
-    window.gtag('config', trackingId, {
-      page_path: location.pathname + location.search,
-    });
-  }, [location, trackingId, enabled]);
-
   // Return tracking functions
   const trackEvent = (eventName: string, parameters?: Record<string, any>) => {
     if (!enabled || !window.gtag) return;
@@ -70,8 +58,17 @@ export const useAnalytics = ({ trackingId, enabled = true }: AnalyticsConfig) =>
     });
   };
 
+  const trackPageView = (pagePath: string) => {
+    if (!enabled || !window.gtag) return;
+    
+    window.gtag('config', trackingId, {
+      page_path: pagePath,
+    });
+  };
+
   return {
     trackEvent,
     trackCustomEvent,
+    trackPageView,
   };
 }; 

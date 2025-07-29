@@ -53,10 +53,10 @@ const translations = {
     // About Section
     'about.title': 'kim olduğum',
     'about.description.part1': 'yaratıcı ve teknik unsurlar etrafında inşa etmekte gelişen biriyim. kendi tarzımda yaratmaktan keyif alıyorum.',
-    'about.description.part2': 'bunun dışında, her şeyden biraz var; adventure time\'a bayılıyorum. iskambil destesi koleksiyonum var, rahatlamak için lego setleri yapıyorum ve hala bir kaykaycının ruhunu taşıyorum. sıfır yeteneğim olduğunu düşüsem etsem de çizim yapmayı seviyorum ve piksel sanat deniyorum. daha önce game jam\'lere katıldım ve her seferinde, aklındaki bir fikri insanların gerçekten hissedebileceği ve deneyimleyebileceği bir şeye dönüştürme fikrine daha da bağımlı hale geliyorum.',
-    'about.description.part3': 'ayrıca ömür boyu spiderman\'ci oldum, muhtemelen gerektiğinden daha fazla şekersiz redbull içiyorum ve oyun teorisi hakkında gereğincen çok heyecanlanıyorum. favori grubum the strokes, ancaj favori albümüm frank ocean\'ın blonde\'u ve o albümdeki self control de her zaman favorim olacak tür olarak ise hyperpop dinlemeye bayılıyorum. favori filmim? şimdilik muhtemelen napoleon dynamite. enchiridion da tekrar tekrar okuduğum bir kitap. ayrıca güncelleme ben10\'daki en havalı uzaylı.',
-    'about.description.part4': 'insanların birbirinden öğrenebileceği ortamları desteklemekten keyif alıyorum. bu github\'ın özelliklerini öğretmekten ve insanların paylaşabileceği platformlar yaratmaktan, karmaşıklığı basitleştirmeyi ve bilgiyi işbirlikçi ve kullanışlı bir şeye dönüştürmeye kadar uzanıyor.',
-    'about.description.part5': 'bununla birlikte, gereksiz bürokrasi, performatif iş veya katılımı zorlaştıran sistemlerin karşısındayım diyebilirim. ayrıca yavaş yürüyenler, turuncudan ve ketçaptan nefret ediyorum.',
+    'about.description.part2': 'bunun dışında, her şeyden biraz var; adventure time\'a bayılıyorum. iskambil destesi koleksiyonum var, rahatlamak için lego setleri yapıyorum ve hala bir kaykaycının ruhunu taşıyorum. sıfır yeteneğim olduğunu düşüsem etsem de çizim yapmayı seviyorum ve piksel sanat üzerinde kendimi geliştirmeye çalışıyorum. daha önce game jam\'lere katıldım ve her seferinde, aklındaki bir fikri insanların gerçekten hissedebileceği ve deneyimleyebileceği bir şeye dönüştürme fikrine daha da bağımlı hale geliyorum.',
+    'about.description.part3': 'ayrıca ömür boyu spiderman\'ci oldum, muhtemelen gerektiğinden daha fazla şekersiz redbull içiyorum ve oyun teorisi hakkında gereğinden çok heyecanlanıyorum. favori grubum the strokes, ancak favori albümüm frank ocean\'ın blonde\'u ve o albümdeki self control de her zaman favorim olacak tür olarak ise hyperpop dinlemeye bayılıyorum. favori filmim? şimdilik muhtemelen napoleon dynamite. enchiridion da tekrar tekrar okuduğum bir kitap. ayrıca güncelleme ben10\'daki en havalı uzaylı.',
+    'about.description.part4': 'insanların birbirinden öğrenebileceği ortamları desteklemekten keyif alıyorum. bu github\'ın özelliklerini öğretmekten, insanların paylaşabileceği platformlar yaratmaktan, karmaşıklığı basitleştirmeyi ve bilgiyi işbirlikçi ve kullanışlı bir şeye dönüştürmeye kadar uzanıyor.',
+    'about.description.part5': 'son olarak, gereksiz bürokrasi, performatif davranış veya katılımı zorlaştıran sistemlerin karşısındayım diyebilirim. ayrıca yavaş yürüyenlerden, turuncudan ve ketçaptan nefret ediyorum.',
 
     'about.quote': '"kupa dediğin boş bir kasedir" — doc hudson',
     'about.downloadCV': 'cv\'mi indir',
@@ -181,9 +181,9 @@ const translations = {
     'about.title': 'who i am',
     'about.description.part1': 'i\'m someone who thrives on building around creative and technical stuff. i find joy in creating in my own way.',
     'about.description.part2': 'outside of that, i\'m into a little bit of everything: i love adventure time. i have a collection of playing card decks, build lego sets to relax, and still carry a skater\'s spirit. i love sketching even if i claim to have zero talent, and i\'ve been slowly getting the hang of pixel art. i\'ve participated in game jams and every time, i get more hooked on the process of turning an idea from your mind into something people can actually feel and experience.',
-    'about.description.part3': 'i\'m also a life-long spiderman fan, i drink more sugar-free redbull than i probably should, and i get way too excited about discussions on game theory. my favorite band is the strokes, but my favorite album is blonde by frank ocean and self control from that album will be always my favorite. my fav movie? probably napoleon dynamite for now. enchiridion is still the book i come back to the most. also update is the coolest alien in ben10.',
-    'about.description.part4': 'i enjoy fostering environments where people can learn from each other. this spans from teaching github workflows and creating platforms that people can share, i love simplifying complexity and turning knowledge into something collaborative and useful.',
-    'about.description.part5': 'that said, i\'m not a fan of unnecessary bureaucracy, performative work or systems that make participation harder. i also hate slow walkers, colour orange or ketchup.',
+    'about.description.part3': 'i\'m also a life-long spiderman fan, i drink more sugar-free redbull than i probably should, and i get way too excited about discussions on game theory. my favorite band is the strokes, but my favorite album is blonde by frank ocean and self control from that album will be always my favorite by genre i am into hyperpop. my fav movie? probably napoleon dynamite for now. enchiridion is still the book i come back to the most. also update is the coolest alien in ben10.',
+    'about.description.part4': 'i enjoy fostering environments where people can learn from each other. this spans from teaching github workflows, creating platforms that people can share, i love simplifying complexity and turning knowledge into something collaborative and useful.',
+    'about.description.part5': 'that said, i\'m not a fan of unnecessary bureaucracy, performative behavior or systems that make participation harder. i also hate slow walkers, colour orange or ketchup.',
  
     'about.quote': '"just promise to plant me there." — fern mertens',
     'about.downloadCV': 'download my resume',
@@ -246,6 +246,7 @@ const translations = {
     
     // Writings
     'writings.title': 'my writings',
+    'writings.comingSoon': 'soon',
    
     'writings.motivationalMessage': 'a little space for my thoughts on different topics',
     
@@ -266,14 +267,41 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<'tr' | 'en'>('en');
+  // Detect user's preferred language from browser settings
+  const getInitialLanguage = (): 'tr' | 'en' => {
+    // Check localStorage first for user's preference
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage === 'tr' || savedLanguage === 'en') {
+      return savedLanguage;
+    }
+    
+    // Check browser language preferences
+    const browserLanguage = navigator.language.toLowerCase();
+    const browserLanguages = navigator.languages?.map(lang => lang.toLowerCase()) || [];
+    
+    // Check if Turkish is preferred
+    if (browserLanguage.startsWith('tr') || browserLanguages.some(lang => lang.startsWith('tr'))) {
+      return 'tr';
+    }
+    
+    // Default to English for all other languages
+    return 'en';
+  };
+
+  const [language, setLanguage] = useState<'tr' | 'en'>(getInitialLanguage);
+  
+  // Enhanced setLanguage to save user preference
+  const handleSetLanguage = (lang: 'tr' | 'en') => {
+    setLanguage(lang);
+    localStorage.setItem('language', lang);
+  };
   
   const t = (key: string): string => {
     return translations[language][key as keyof typeof translations['tr']] || key;
   };
   
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );

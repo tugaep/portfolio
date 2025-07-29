@@ -29,6 +29,10 @@ export function Footer() {
 
   const handleNeedWebsite = () => {
     navigate('/site');
+    // Ensure the page scrolls to the top
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
   };
 
   return (

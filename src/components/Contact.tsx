@@ -45,6 +45,16 @@ export function Contact() {
     },
   ];
 
+  const handleContactClick = () => {
+    // Analytics event'i gönder
+    // trackEvent('contact_click', {
+    //   event_category: 'engagement',
+    //   value: 1
+    // });
+    
+    // Normal contact işlemi...
+  };
+
   return (
     <section id="contact" ref={sectionRef} className="py-20 bg-gradient-to-b from-background to-primary-50/30 dark:to-primary-900/10">
       <div className="container mx-auto px-4">

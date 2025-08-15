@@ -15,7 +15,9 @@ export const AnalyticsWrapper = ({ children }: AnalyticsWrapperProps) => {
 
   // Sayfa değişikliklerini takip et
   useEffect(() => {
-    trackPageView(location.pathname + location.search);
+    // Hash navigation için tam URL'i takip et
+    const fullPath = location.pathname + location.search + location.hash;
+    trackPageView(fullPath);
   }, [location, trackPageView]);
 
   return <>{children}</>;
